@@ -10,7 +10,7 @@ Remove background from image and prepare to become an .h5 for use with LEAP (htt
 
 MAIN FUNCTION: <br />
 make_h5_video(raw_vid_path, save_path, *, verbose = True, remove_bkg = True, invert = True,
-              cutoff= 5, frame_range = None, bkg_method ='div', bkg_sep = 50)\
+              cutoff= 5, frame_range = None, bkg_method ='div', bkg_sep = 50)
 
 
 INPUT PARAMETERS:<br />
