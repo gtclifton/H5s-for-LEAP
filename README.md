@@ -3,6 +3,7 @@ Python function to create an .h5 file compatible with LEAP deep learning analysi
 
 Remove background from image and prepare to become an .h5 for use with LEAP (https://github.com/talmo/leap)
  <br />
+Your video should already be centered and rotated around the subject (see examples on LEAP website).
   <br />
 
 
