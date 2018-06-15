@@ -11,7 +11,9 @@ MAIN FUNCTION:
 make_h5_video(raw_vid_path, save_path, *, verbose = True, remove_bkg = True, invert = True,
               cutoff= 5, frame_range = None, bkg_method ='div', bkg_sep = 50)\
 
+
 INPUT PARAMETERS:
+
 :param raw_vid_path: path to video file you would like to analyze
 :param save_path: where would you like to save the .h5?
 :param verbose: if True, prints updates about the process
@@ -26,5 +28,7 @@ INPUT PARAMETERS:
 :param bkg_sep: the separation between frames pulled from the video to determine the background pixel values
 
 
+
 EXAMPLE USAGE FROM TERMINAL:
+
 python3 "/home/path_to_folder/LEAP_video_prep.py" "/path_to_video.mp4" "/path_to_savefolder/Test.h5" --remove-bkg=False
